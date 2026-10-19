@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.97133,
+  "accuracy_percent": 97.133,
+  "rank": 30,
+  "images": 1500,
+  "correct_implied_by_rounded_accuracy": 1457,
+  "errors_implied_by_rounded_accuracy": 43,
+  "source": "author-confirmed final CodaBench result, 19 October 2026",
+  "submission_id": null,
+  "original_checkpoint_sha256": "e030ec06474a63e928477aaa98a57571d2712e1378e3ff4903e993d2b1c82b2e",
+  "original_prediction_zip_sha256": "526661b24f6a88ffb197fc37e82e240a41f5a972f810deaa387dc65b7be6724f",
+  "prediction_json_sha256": "6f45f62afe5cce9d7a7a01abe6909e01a2c46bc693546e0438fc9ad6f4bbdaa1",
+  "per_class_test_accuracy": null
+}

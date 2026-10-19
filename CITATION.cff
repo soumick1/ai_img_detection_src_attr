@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software if you use this implementation."
+type: software
+title: "Processing-Robust AI Image Detection and Source Attribution"
+version: 1.0.0
+date-released: 2026-10-19
+authors:
+  - family-names: Sarker
+    given-names: Soumick
+license: MIT
+abstract: "CE7454 course project: a single RGB-NPR ResNet-18 with processing and noise augmentation."

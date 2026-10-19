@@ -1,0 +1,22 @@
+{
+  "normalization_tensor_equal": true,
+  "training_view_tensor_equal_cases_by_stage": {
+    "01_scratch": 72,
+    "02_processing": 72,
+    "03_noise": 72,
+    "04_bilinear": 72,
+    "05_strong_noise": 72,
+    "06_final": 72
+  },
+  "training_view_fixture": "seeded synthetic RGB512 JPEG; not a new accuracy experiment",
+  "paired_sampler_epochs": [
+    0,
+    10,
+    19
+  ],
+  "rows_compared_per_epoch": 12000,
+  "all_sampler_keys_equal": true,
+  "validation_conditions_pixel_equal": 27,
+  "tensor_repackaging_bitwise_equal": true,
+  "full_training_repeated_for_release": false
+}

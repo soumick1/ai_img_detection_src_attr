@@ -1,0 +1,7 @@
+name: ai-attribution
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+# Then install the matching PyTorch build and `pip install -e .` as in README.

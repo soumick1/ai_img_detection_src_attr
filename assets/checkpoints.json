@@ -1,0 +1,22 @@
+{
+  "final_model": {
+    "file": "checkpoints/final_model.pt",
+    "sha256": "e4bef5c1ed23ff60a76884cb821c243658bc3b5c9524c4a660875a733b889473",
+    "original_sha256": "e030ec06474a63e928477aaa98a57571d2712e1378e3ff4903e993d2b1c82b2e",
+    "tensor_state_bitwise_equal_to_original": true
+  },
+  "parent_110": {
+    "file": "checkpoints/parent_110.pt",
+    "sha256": "40031bf809e5c391b98924adc1b1f71c7f476fc0f4aeafcd52e9dc6d15c311c8",
+    "original_sha256": "50d7ff54cbf1f5738dcadfdea5daa048ef1094b635bdd1aba4142f0e3c432da4",
+    "tensor_state_bitwise_equal_to_original": true
+  },
+  "predictions": {
+    "file": "artifacts/final_test_predictions.json",
+    "sha256": "6f45f62afe5cce9d7a7a01abe6909e01a2c46bc693546e0438fc9ad6f4bbdaa1"
+  },
+  "historical_prediction_zip": {
+    "file": "artifacts/final_test_predictions.zip",
+    "sha256": "526661b24f6a88ffb197fc37e82e240a41f5a972f810deaa387dc65b7be6724f"
+  }
+}

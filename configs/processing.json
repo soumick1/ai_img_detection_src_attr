@@ -1,0 +1,52 @@
+{
+  "arm": "46",
+  "image_size": 512,
+  "train_image_size": 512,
+  "input_mode": "native_crop",
+  "horizontal_flip": false,
+  "family_weights": [
+    1,
+    1
+  ],
+  "spatial_crop_size": 508,
+  "crop_offset_min": 0,
+  "crop_offset_max": 4,
+  "exact_kernel": "lanczos",
+  "exact_jpeg_quality": 90,
+  "exact_jpeg_subsampling": 2,
+  "variation_kernels": [
+    "lanczos",
+    "bicubic",
+    "bilinear"
+  ],
+  "variation_kernel_weights": [
+    2,
+    1,
+    1
+  ],
+  "variation_jpeg_quality_min": 85,
+  "variation_jpeg_quality_max": 95,
+  "variation_jpeg_subsampling": [
+    2,
+    1,
+    0
+  ],
+  "variation_subsampling_weights": [
+    8,
+    1,
+    1
+  ],
+  "variation_prefilter": "gaussian_blur",
+  "prefilter_probability": 0.5,
+  "blur_sigma_min": 0.2,
+  "blur_sigma_max": 0.5,
+  "dither_min_pixel_units": -1.0,
+  "dither_max_pixel_units": 1.0,
+  "operation_order": [
+    "optional_variation_prefilter",
+    "crop508",
+    "resize512",
+    "jpeg",
+    "tensor_normalize"
+  ]
+}

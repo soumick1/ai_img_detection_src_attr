@@ -1,0 +1,19 @@
+{
+  "checkpoint_sha256": "e4bef5c1ed23ff60a76884cb821c243658bc3b5c9524c4a660875a733b889473",
+  "prediction_json_sha256": "6f45f62afe5cce9d7a7a01abe6909e01a2c46bc693546e0438fc9ad6f4bbdaa1",
+  "predictions": 1500,
+  "prediction_counts": {
+    "0": 523,
+    "2": 490,
+    "1": 487
+  },
+  "model_count": 1,
+  "views_per_image": 1,
+  "preprocessing": "RGB512, ToTensor, mean/std .5",
+  "model_state_unchanged": true,
+  "reverse_replay_verified": true,
+  "reference_verified": true,
+  "training_updates": 0,
+  "test_time_augmentation": false,
+  "uploaded": false
+}
